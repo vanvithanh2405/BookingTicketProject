@@ -1,0 +1,43 @@
+.trapezoid {
+  border-bottom: 80px solid gray;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 80%;
+  opacity: 0.1;
+  filter: drop-shadow(0px 200px 35px #e6e1e1);
+  -webkit-filter: drop-shadow(0px 200px 35px #e6e1e1);
+  -moz-filter: drop-shadow(0px 200px 35px #e6e1e1);
+  position: relative;
+}
+
+.manHinh {
+  position: absolute;
+  top: 200px;
+}
+
+.ghe {
+  /*Ghế thường*/
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  background-color: rgb(123, 122, 122);
+  color: #fff;
+}
+
+.gheDaDat {
+  background-color: rgb(232, 76, 76);
+  cursor: no-drop;
+}
+
+.gheDangDat {
+  background-color: rgb(18, 176, 18) !important;
+}
+
+.gheVip {
+  background-color: rgb(228, 74, 8);
+}
+
+
